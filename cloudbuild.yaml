@@ -1,4 +1,4 @@
 steps:
   - name: gcr.io/cloud-builders/docker
     args: ["build","--network=cloudbuild", "."]
-    test: 212 jjj
+    test: ["TEST,"TEST"]
